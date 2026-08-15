@@ -17,6 +17,9 @@
 ## 安装
 
 ```bash
+# 直接从 GitHub 安装（推荐，无需发布 npm）
+dsh plugin --profile web add github:juexiongchen-boop/dsh-pixterm-theme
+
 # 本地目录安装（开发 / 离线分享）
 dsh plugin --profile web add <path-to-dsh-pixterm-theme>
 
