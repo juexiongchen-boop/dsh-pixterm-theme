@@ -1,0 +1,9 @@
+# dsh-pixterm-theme bundle patch: mounted when the package is installed into
+# a profile (`dsh plugin --profile web add <path-or-name>`).
+# One row mounts both halves: the package main is a no-op host plugin, and the
+# `dsh.client` declaration in package.json exposes the browser theme bundle
+# through the client module table.
+
+- insert:
+    - id: pixterm-theme
+      name: 'dsh-pixterm-theme'

@@ -1,0 +1,40 @@
+{
+  "name": "dsh-pixterm-theme",
+  "version": "1.0.0",
+  "description": "Pixel Terminal Blue (Light) theme for the DeepSeek Harness Web GUI: VT323 / Press Start 2P pixel fonts, CRT scanlines, hard pixel borders and shadows — recolored around #4176E6 on a clean white base.",
+  "type": "module",
+  "main": "./host/index.js",
+  "exports": {
+    ".": "./host/index.js",
+    "./client": "./client/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "host",
+    "client",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ]
+    }
+  },
+  "keywords": [
+    "theme",
+    "skin",
+    "pixel",
+    "terminal",
+    "retro",
+    "deepseek-harness",
+    "dsh-theme"
+  ],
+  "license": "MIT"
+}
