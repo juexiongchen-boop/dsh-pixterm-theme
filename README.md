@@ -2,6 +2,8 @@
 
 **Pixel Terminal Blue (Light)** — a complete skin for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web GUI.
 
+![dsh-pixterm-theme screenshot](docs/screenshot.png)
+
 复古像素终端风 × 图标蓝 `#4176E6` × 纯白底：
 
 - 🕹️ **像素字体** — 全局 VT323，主标题 Press Start 2P 并带 `4px 4px 0` 硬投影（中文自动回退系统字体）
